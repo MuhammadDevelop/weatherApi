@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <link rel="stylesheet" href="../css/main.min.css">
+
+
+</head>
+
+<body  class="weatherAll__parent">
+        <div class="weather">
+            <div class="contaiiner">
+                <nav class="weather__nav">
+                    <h1 class="weather__tit">
+                        Weather Api</h1>
+                    <form action="#" class="weather__form">
+                        <input type="text" class="weather__inp" placeholder="Search any City">
+                    </form>
+                    <div class="weather__logo--parent">
+                        <input type="checkbox" id="theme-toggle" type="checkbox">
+                        <label for="theme-toggle">
+                       <img class="weather__sun" src="../images/sun.png" alt="">
+                       <img class="weather__moon" src="../images/moon.png" alt="">
+                        </label>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="sectionOne">
+            <div class="contaiiner">
+                <div class="sectionOne__body">
+    
+                    <div class="sectionOne__left">
+                        <img aria-colspan="sectionOne__img" src="" alt="" class="sectionOne__img">
+                        <h1 class="sectionOne__gradus">
+                            13°
+                        </h1>
+                        <div class="sectionOne__location">
+                            <p class="sectionOne__country">
+                            </p>
+                            <p class="sectionOne__direction">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sectionOne__Right">
+                        <p class="sectionOne__time">
+                            7:00
+                        </p>
+                        <div class="sectionOne__inner">
+                            <p class="sectionOne__days">
+                                  Sunset   Time,
+                            </p>
+                            <p class="sectionOne__day">Monday</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="location">
+            <div class="contaiiner">
+                <iframe id="loacion__src"
+                    src="https://www.google.com/maps/place/Andijan,+Andijan+region/@40.7793644,72.3196454,12z/data=!3m1!4b1!4m6!3m5!1s0x38bc901d6b13d4ef:0xfc45bcaa7973dfac!8m2!3d40.8153561!4d72.28375!16zL20vMDJwNDA5?entry=ttu"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="deogramma">
+            <div class="contaiiner">
+                <div class="deogramma__parent">
+                <div class="deogramma__parentLeft">
+                    <div class="deogramma__left">
+                        <div class="deogramma__sun">
+                            <div class="deogramma__sun--left">
+                                <div class="sun__left--inner">
+                                   <div class="left__two">
+                                    <img src="./images/droplet.svg" alt="">
+                                    <div class="humidty">
+                                        <p class="sun__text">
+                                            Humidity
+                                        </p>
+                                        <p class="sun__res">
+                                            21%
+                                        </p>
+                                        
+                                   </div>
+                                    </div>
+                                    <div class="sun__left--innerTwo">
+                                       <div class="left__two">
+                                        <img src="../images/sun.svg" alt="">
+                                    <div class="humidty">
+                                     <p class="sun__text">
+                                                UV index
+                                            </p>
+                                 <p class="sun__resTwo">
+                                                8out of 10
+                                               </p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deogramma__span">
+    
+                            </div>
+                            <div class="deogramma__sun--right">
+                                <div class="sun__right--inner">
+                                  <div class="right__two">
+                                    <img class="sun_img" src="../images/sunset.svg" alt="">
+                                    <div class="humidty">
+                                       
+                                        <p class="sun__text">
+                                            Sunset
+                                        </p>
+                                        <p class="sun__set">
+                                            07:46
+                                        </p>
+                                    </div>
+                                  </div>
+                                  <div class="right__two">
+                                    <img class="sun_img" src="../images/sunrise.svg" alt="">
+                                    <div class="humidty">
+                                       
+                                        <p class="sun__text">
+                                            Sunrise
+                                        </p>
+                                        <p class="sun__rise">
+                                            04:46
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrow__scedchule">
+                               <div class="wrapper">
+                                <div class="arrow__left">
+                                    <h2 class="arroew__left--tit"> </h2>
+                                  <img src="../images/wind.png" alt="" class="arrow__left--img">
+                                </div>
+                                <div class="arrow__right">
+                                    <div class="arrow_wood--parent">
+                                            <img src="../images/arrow3.svg" alt="" class="arrow__img">
+                                           
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                    </div>
+                </div>
+                    <div class="deogramma__right">
+    <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/body.js"></script>
+
+
+</html>
